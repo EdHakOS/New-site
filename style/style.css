@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    background: url("../images/back.png") no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 0px auto;
+    min-width: 950px;
+    max-width: 950px;
+}
+
+#header .block-text{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#header .block-text .text{ 
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-weight: bold;
+    color: azure;
+    font-size: 36pt;
+    font-family: "PT Sans Open Bold";
+    text-transform: uppercase;
+}
+
+#content{
+    background-color: transparent;
+    margin: 0px auto;
+    min-width: 950px;
+    max-width: 950px;
+    margin-top: 30px;
+    display:block;
+}
+
+#content .lookup .img{
+    background-color: aqua;
+    float: left;
+    width: 20%;
+    height: 150px;
+}
+
+#content .lookup .block-text2{
+    background-color: aqua;
+    float: right;
+    text-align: right;
+    font-size: 16pt;
+    font-family: "Open Sans Regular";
+    width: 80%; 
+}
+
+#content .lookup .button2{
+    display: block;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 18%;
+    padding: 4px 5px 3px 5px;
+    border: 2px solid #008697;  
+    
+}
+
+#content .lookup .button2 .forbtn{
+    background-color: #008697;
+    color: white;
+    padding: 5px;
+    border: 1px solid #008697;
+    vertical-align: bottom;
+    width: 260px;
+    height: 36px;
+    font-size: 23,8pt;
+    font-family: "PT Sans Open Bold";
+    text-transform: uppercase;
+}
